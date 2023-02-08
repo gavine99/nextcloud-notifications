@@ -28,7 +28,7 @@ jobs:
     strategy:
       matrix:
         php-versions: ['8.1']
-        server-versions: ['master']
+        server-versions: ['perf/noid/only-check-for-token-when-it-can-actually-be']
 
     steps:
       - name: Set app env
